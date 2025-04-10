@@ -1,0 +1,9 @@
+document.addEventListener("DOMContentLoaded", () => {
+    fetch("partials/navbar.html") // sin la barra al inicio
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("navbar-container").innerHTML = data;
+      })
+      .catch(err => console.error("Error al cargar navbar:", err));
+  });
+  
