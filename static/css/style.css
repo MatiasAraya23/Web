@@ -335,6 +335,19 @@ body{
   }
   /* fin separador */
 
+  /* inicio tarjeta*/
+
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* sombra más intensa */
+  }
+  /*fin tarjeta*/
+  
+
   .card img {
     width: auto;
     height: 180px;
@@ -342,6 +355,7 @@ body{
     display: block;
     margin: 20px auto 10px auto;
   }
+
   
 /* inicio proyectos*/
 .galeria-wrapper {
