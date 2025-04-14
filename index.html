@@ -1,71 +1,129 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="static/img/icono.png">
-  <link rel="stylesheet" href="static/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="static/img/icono.png">
+    <link rel="stylesheet" href="static/css/style.css">
+    
 </head>
-<body>
+
+<body >
+
 
     <header class="header">
 
         <div class="menu container">
             <a href="#" class="logo"></a>
-            <input type="checkbox" id="menu"/>
+            <input type="checkbox" id="menu" />
 
-            <nav class="navbar">
+            <nav class="navbar" data-aos="fade-right">
                 <ul>
                     <li>
-                        <a href="#">Inicio</a>
+                        <a href="index.html">Sobre Mi</a>
                     </li>
                     <li>
-                        <a href="#">Sobre Mi</a>
+                        <a href="templates/proyectos.html">Proyectos</a>
                     </li>
                     <li>
-                        <a href="#">Proyectos</a>
-                    </li>
-                    <li>
-                        <a href="#">Contacto</a>
+                        <a href="templates/contacto.html">Contacto</a>
                     </li>
 
                 </ul>
             </nav>
         </div>
 
-        <div class="header-content container">
-            <h2>Bienvenidos</h2>
+        <div class="perfil d-flex align-items-center gap-4" data-aos="fade-right">
+            <div class="img-perfil">
+                <img src="static/img/img.jpg" alt="Foto de perfil">
+            </div>
+            <div class="info-perfil">
+                <h2 class="nombre text-white">Matias Villalobos Araya</h2>
+                <p class="titulo text-light">Ingeniero Civil Informático | Desarrollador FullStack</p>
+            </div>
         </div>
 
+
     </header>
-    <div class="intro-contenido">
-        <div class="intro-texto">
-            <h3>Información</h3>
-            <p class="parrafo-intro">
-                Este sitio web fue creado con el proposito de dar a conocer los proyectos en los que he trabajado.
-            </p>        
+    <section class="presentacion-seccion">
+        <div class="bloque" data-aos="fade-right">
+          <div class="texto">
+            <h3>Presentación</h3>
+            <p>
+              Soy Ingeniero Civil en Computación e Informática con experiencia en el desarrollo de soluciones tecnológicas orientadas a mejorar procesos y optimizar recursos en las organizaciones. A lo largo de mi carrera, he trabajado en proyectos enfocados en la mejora de la infraestructura tecnológica y la implementación de metodologías de gestión para garantizar la calidad y eficiencia en el área TI.
+            </p>
+            <p>
+              Mi enfoque está en la mejora continua y en la entrega de soluciones prácticas que se ajusten a las necesidades del negocio, siempre buscando reducir costos y aumentar la eficiencia operativa. Me considero una persona organizada, con fuertes habilidades para el trabajo en equipo y la documentación clara de procesos, con el objetivo de aportar valor tangible a las empresas a través de la tecnología.
+            </p>
+          </div>
+          <div class="imagen">
+            <img src="static/img/inicio1.png" alt="Imagen presentación">
+          </div>
         </div>
-    
-        <div class="img-abajo">
-            <img src="static/img/inicio1.png" alt="">
+
+        <hr class="separador">
+        
+        <div class="bloque" data-aos="fade-right">
+          <div class="texto">
+            <h3>Títulos y Certificados</h3>
+            <div class="lista-documentos">
+              <div class="documento">
+                <i class="bi bi-file-earmark-pdf-fill"></i>
+                <a href="static/documentos/titulo_prof.pdf" download>Título Profesional - Ingeniero Civil Informático</a>
+              </div>
+              <div class="documento">
+                <i class="bi bi-file-earmark-pdf-fill"></i>
+                <a href="static/documentos/diplomado.pdf" download>Diplomado en Arquitectura Cloud</a>
+              </div>
+              <div class="documento">
+                <i class="bi bi-file-earmark-pdf-fill"></i>
+                <a href="static/documentos/linux.pdf" download>Certificado - NDG Linux Essentials</a>
+              </div>
+              <div class="documento">
+                <i class="bi bi-file-earmark-pdf-fill"></i>
+                <a href="static/documentos/intro_net.pdf" download>Certificado - Introduction to Networks</a>
+              </div>
+              <div class="documento">
+                <i class="bi bi-file-earmark-pdf-fill"></i>
+                <a href="static/documentos/enterprise_net.pdf" download>Certificado - Enterprise Networking, Security and Automation</a>
+              </div>
+            </div>
+          </div>
+          <div class="imagen">
+            <img src="static/img/img-presentacion.avif" alt="Imagen certificaciones">
+          </div>
         </div>
-    </div>
+      
+      </section>
+      
+
+
+
 
     <footer class="footer">
         <div class="footer-content container">
             <p>© 2025 Matias Ignacio Villalobos Araya. Todos los derechos reservados.</p>
-            <a href="https://www.linkedin.com/in/matias-ignacio-villalobos-araya-a7a588285/" target="_blank" class="linkedin-icon">
+            <a href="https://www.linkedin.com/in/matias-ignacio-villalobos-araya-a7a588285/" target="_blank"
+                class="linkedin-icon">
                 <i class="bi bi-linkedin"></i>
             </a>
         </div>
     </footer>
-    
-    
-    
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
+
 </html>

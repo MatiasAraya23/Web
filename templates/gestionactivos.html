@@ -47,32 +47,35 @@
           </div>
       </div>
     </header>
-    
 
-    <section class="seccion-proyectos container py-5">
-      <h2 class="text-center mb-5" data-aos="fade-up">Mis Proyectos</h2>
-    
-      <div class="row g-4 justify-content-center">
-
-        <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in">
-          <div class="card h-100 shadow rounded-4">
-            <img src="../static/img/sistemag.png" class="card-img-top rounded-top-4" alt="Proyecto Backend">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Proyecto Gestion de Activos</h5>
-              <p class="card-text">Un sistema para mantener un control sobre los activos tecnologicos de la empresa.</p>
-              <a href="gestionactivos.html" class="btn btn-primary mt-auto">Ver Proyecto</a>
+    <main class="container my-5">
+        <h1 class="text-center mb-5">Proyecto Gestión de Activos</h1>
+      
+        <section class="galeria-proyecto">
+            <h3>Backend (Spring Boot)</h3>
+            <p>Controladores REST, servicios, seguridad JWT, registros en bitácora y más.</p>
+          
+            <div class="galeria-wrapper">
+              <button class="flecha izq" onclick="cambiarPagina('backend', -1)">&#8592;</button>
+          
+              <div class="contenedor-imagenes" id="galeria-backend">
+              </div>
+          
+              <button class="flecha der" onclick="cambiarPagina('backend', 1)">&#8594;</button>
             </div>
-          </div>
-        </div>
+          </section>
+
+    </main>
 
 
-    
-
-    </section>
-    
-  
 
 
+
+    <div id="lightbox" class="lightbox">
+        <span class="cerrar" onclick="cerrarLightbox()">&times;</span>
+        <img class="lightbox-imagen" id="lightbox-imagen" src="">
+    </div>
+          
     <footer class="footer">
         <div class="footer-content container">
             <p>© 2025 Matias Ignacio Villalobos Araya. Todos los derechos reservados.</p>
@@ -90,6 +93,10 @@
     <script>
       AOS.init();
     </script>
+    <script src="../static/js/gestionactivos.js"></script>
+    
+      
+      
 
 </body>
 
