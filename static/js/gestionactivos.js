@@ -1,7 +1,7 @@
 const imagenesBackend = [
-  "../static/img/bkend1.png", "../static/img/db1.png", "../static/img/frend1.png",
-  "../static/img/sis1.png", "../static/img/db3.png", "../static/img/pstman1.png",
-  "../static/img/pstman2.png", "../static/img/pstman3.png", "../static/img/sis2.png",
+  "../static/img/codigo.png", "../static/img/codigo.png", "../static/img/codigo.png",
+  "../static/img/codigo.png", "../static/img/codigo.png", "../static/img/codigo.png",
+  "../static/img/codigo.png", "../static/img/codigo.png", "../static/img/codigo.png",
   "../static/img/codigo.png", "../static/img/codigo.png", "../static/img/codigo.png"
 ];
 
