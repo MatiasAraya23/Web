@@ -347,7 +347,7 @@ body{
   .bloque .texto,
   .bloque .imagen {
     flex: 1;
-    max-width: 800px; /* Esto asegura simetría */ 
+    max-width: 700px; /* Esto asegura simetría */ 
   }
   
   .bloque .texto h3 {
@@ -441,7 +441,7 @@ body{
 /* inicio separador */
 .separador {
     height: 2px;
-    width: 60%;
+    width: 70%;
     margin: 40px auto;
     background: linear-gradient(to right, #d1d1d1, #0c0c0c);
     border: none;
