@@ -1,0 +1,69 @@
+/* inicio proyectos*/
+.galeria-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .flecha {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 28px;
+    border-radius: 8px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  .flecha:hover {
+    background-color: #0056b3;
+    transform: scale(1.1) translateY(-3px); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+    
+  }
+  
+  .contenedor-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 900px;
+  }
+  
+  .contenedor-imagenes img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+  
+  .contenedor-imagenes img:hover {
+    transform: scale(1.05);
+  }
+  
+  /*fin proyectos*/
+
+    /* inicio tarjeta*/
+
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* sombra más intensa */
+  }
+  /*fin tarjeta*/
+  
+
+  .card img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto 10px auto;
+  }

@@ -1,0 +1,126 @@
+
+/* inicio seccion presentacion*/
+.presentacion-seccion {
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 60px 15px;
+  }
+
+  @media (min-width: 768px) {
+    .presentacion-seccion {
+      padding: 80px 100px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .presentacion-seccion {
+      padding: 80px 150px;
+    }
+  }
+
+  
+  .bloque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 80px;
+  }
+  
+  .bloque .texto {
+    flex: 1 1 50%;
+    max-width: 600px;
+  }
+  .bloque .texto,
+  .bloque .imagen {
+    flex: 1;
+    max-width: 800px; /* Esto asegura simetría */ 
+  }
+  
+  .bloque .texto h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .bloque .texto p {
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  .lista-documentos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .documento {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .documento i {
+    font-size: 28px;
+    color: #dc3545;
+  }
+  
+  .documento a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.2s ease;
+  }
+  
+  .documento:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  
+  .documento a:hover {
+    color: #0d6efd;
+  }
+  
+  .bloque .imagen {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bloque .imagen img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+  }
+  
+  
+  /*estilo responsivo*/
+  @media (max-width: 768px) {
+    .bloque {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .bloque .texto,
+    .bloque .imagen {
+      max-width: 100%;
+    }
+  
+    .bloque .imagen {
+      margin-top: 20px;
+    }
+  }
+  
+
+
+
+/* fin seccion presentacion */
