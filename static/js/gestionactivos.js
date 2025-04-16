@@ -1,8 +1,12 @@
 const imagenesBackend = [
-  "../static/img/codigo.png", "../static/img/codigo.png", "../static/img/codigo.png",
-  "../static/img/codigo.png", "../static/img/codigo.png", "../static/img/codigo.png",
-  "../static/img/codigo.png", "../static/img/codigo.png", "../static/img/codigo.png",
-  "../static/img/codigo.png", "../static/img/codigo.png", "../static/img/codigo.png"
+  "../static/img/1)login.png", "../static/img/2)inicio.png", "../static/img/3)estadisticas.png",
+  "../static/img/4)perfil.png", "../static/img/4)usuario-listar.png", "../static/img/41)usuario-crear.png",
+  "../static/img/42)usuario-editar.png", "../static/img/5)servidor-listar.png", "../static/img/51)servidor-crear1.png",
+  "../static/img/52)servidor-crear2.png", "../static/img/53)servidor-editar1.png", "../static/img/54)servidor-editar2.png",
+  "../static/img/6)computador-lista1.png", "../static/img/61)computador-listar2.png", "../static/img/62)computador-crear1.png",
+  "../static/img/63)computador-crear2.png", "../static/img/64)computador-editar1.png", "../static/img/65)computador-editar2.png",
+  "../static/img/66)dispositivo-listar1.png", "../static/img/67)dispositivo-listar-2.png", "../static/img/68)dispositivo-crear1.png",
+  "../static/img/69)dispositivo-crear2.png", "../static/img/70)dispositivo-editar1.png", "../static/img/71)dispositivo-editar2.png",
 ];
 
 const galeriaEstado = {
