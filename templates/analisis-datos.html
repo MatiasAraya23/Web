@@ -11,7 +11,7 @@
 
   <link rel="icon" type="image/x-icon" href="static/img/icono.png">
   <link rel="stylesheet" href="../static/css/style.css">
-  <link rel="stylesheet" href="../static/css/proyectos.css">
+  <link rel="stylesheet" href="../static/css/gestionactivos.css">
 
 </head>
 
@@ -53,59 +53,24 @@
       </ul>
     </nav>
   </div>
+    <main class="container my-5" data-aos="fade-right">
+        <h1 class="text-center mb-5">Proyecto Ingenieria de Datos</h1>
+      
+        <section class="galeria-proyecto">
+            <h4>Librerias Utilizadas: Pandas, Psycopg2, Dotenv.</h4>
+            <p>Data/raw: Directorio que almacena el archivo .csv con aproximadamente 760.000 registros.</p>
+            <p>Etl/: Modulo encargado del proceso ETL (Extraccion, Tranformacion y Carga) de los datos.</p>
+            <p>Utils/: Modulo destinado a generar la conexion a la base de datos.</p>
+            <p>.env: Archivo de configuracion para almacenar credenciales de forma segura y desacoplada del código fuente.</p>
+            <p>Git: Control de versiones para el seguimiento de cambios en el proyecto. <a href="https://github.com/MatiasAraya23/analisis-datos">Repositorio</a></p>
+          
+          
+          
 
-  <section class="seccion-proyectos container py-5 mb-5">
-    <h2 class="text-center mb-5" data-aos="fade-up">Mis Proyectos</h2>
-  
-    <div class="row g-4 justify-content-center">
-
-      <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in">
-        <div class="card h-100 shadow rounded-4">
-          <img src="../static/img/sistemag.png" class="card-img-top rounded-top-4" alt="Proyecto Backend">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title text-center">Proyecto Gestion de Activos</h5>
-            <p class="card-text">Sistema pensado para tener un control sobre los activos tecnologicos de una empresa.</p>
-            <a href="gestionactivos.html" class="btn btn-primary mt-auto">Ver Proyecto</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in">
-        <div class="card h-100 shadow rounded-4">
-          <img src="../static/img/sistemag.png" class="card-img-top rounded-top-4" alt="Proyecto Backend">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title text-center">Proyecto Reportes</h5>
-            <p class="card-text">Es un sistema simple creado con el proposito de generar reportes semanales sobre problemas con sitios webs a los que una empresa de tecnologia le preste soporte.</p>
-            <a href="reportes.html" class="btn btn-primary mt-auto">Ver Proyecto</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in">
-        <div class="card h-100 shadow rounded-4">
-          <img src="../static/img/analisisdatosfoto.png" class="card-img-top rounded-top-4" alt="Proyecto Backend">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title text-center">Proyecto Ingenieria de Datos</h5>
-            <p class="card-text">Este proyecto implementa un proceso de ingenieria de datos basado en un flujo ETL, migración a base de datos PostgreSQL a partir de un archivo de exportaciones con más de 760.000 registros.</p>
-            <a href="analisis-datos.html" class="btn btn-primary mt-auto">Ver Proyecto</a>
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-    </div>
-
-  </section>
-  
-
-    <hr class="separador">
+    </main>
     
-  
-
-
+    <hr class="separador">
+          
     <footer class="footer">
         <div class="footer-content container">
             <p>© 2025 Matias Ignacio Villalobos Araya. Todos los derechos reservados.</p>
@@ -123,11 +88,15 @@
     <script>
       AOS.init();
     </script>
+    <script src="../static/js/reportes.js"></script>
     <script>
         function toggleMenu() {
             document.getElementById('mobileMenu').classList.toggle('activo');
         }
     </script>
+    
+      
+      
 
 </body>
 
